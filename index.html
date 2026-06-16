@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - Watch TV Shows Online, Watch Movies Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header d-flex flex-column justify-content-between" style="background-image: url('./assest/header-image.png');">
+        <div class="header-overlay"></div>
+        
+        <nav class="navbar navbar-expand-lg position-relative z-3 px-4 py-3">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" width="150">
+                </a>
+                <div class="d-flex gap-3">
+                    <select class="form-select lang-select text-white border-secondary bg-dark-trans" aria-label="Language">
+                        <option selected>🌐 English</option>
+                        <option value="1">हिन्दी</option>
+                    </select>
+                    <a href="login.html" class="btn btn-danger btn-signin fw-bold px-3">Sign In</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-content text-center text-white position-relative z-3 container flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="display-3 fw-black mb-3">Unlimited movies, TV shows, and more</h1>
+            <p class="fs-4 mb-4">Starts at ₹149. Cancel anytime.</p>
+            <p class="fs-5 mb-4">Ready to watch? Enter your email to create or restart your membership.</p>
+            
+            <form action="login.html" method="GET" class="cta-form w-100 d-flex flex-column flex-md-row justify-content-center gap-2 px-3">
+                <input type="email" class="form-control form-control-lg text-black border-secondary bg-dark-trans py-3" placeholder="Email address" required>
+                <button type="submit" class="btn btn-danger btn-lg px-4 py-3 fw-bold flex-shrink-0">
+                    Get Started <i class="fas fa-chevron-right ms-2"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <div class="section-divider"></div>
+
+    <section class="features-section text-white bg-black py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="display-5 fw-bold mb-3">Enjoy on your TV</h2>
+                    <p class="fs-4 text-secondary-light">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="TV Feature" class="img-fluid">
+                </div>
+            </div>
+            
+            <hr class="border-secondary my-4">
+
+            <div class="row align-items-center py-5 flex-md-row-reverse">
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="display-5 fw-bold mb-3">Download your shows to watch offline</h2>
+                    <p class="fs-4 text-secondary-light">Save your favorites easily and always have something to watch.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="Mobile Feature" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="faq-section text-white bg-black py-5">
+        <div class="container max-width-800">
+            <h2 class="text-center display-5 fw-bold mb-5">Frequently Asked Questions</h2>
+            
+            <div class="accordion-pure-css mb-3">
+                <input type="checkbox" id="faq1" class="faq-toggle">
+                <label for="faq1" class="faq-label d-flex justify-content-between align-items-center fs-4 p-4 bg-dark-grey">
+                    What is Netflix? <i class="fas fa-plus plus-icon"></i>
+                </label>
+                <div class="faq-content bg-dark-grey fs-5">
+                    <p class="p-4 m-0 border-top border-dark">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+                </div>
+            </div>
+
+            <div class="accordion-pure-css mb-3">
+                <input type="checkbox" id="faq2" class="faq-toggle">
+                <label for="faq2" class="faq-label d-flex justify-content-between align-items-center fs-4 p-4 bg-dark-grey">
+                    How much does Netflix cost? <i class="fas fa-plus plus-icon"></i>
+                </label>
+                <div class="faq-content bg-dark-grey fs-5">
+                    <p class="p-4 m-0 border-top border-dark">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <footer class="footer-section bg-black text-secondary py-5">
+        <div class="container text-secondary-light">
+            <p class="mb-4">Questions? Call <a href="tel:+91 9405392256" class="text-secondary-light decoration-underline">+91 9405392256</a></p>
+            <p class="small m-0">Netflix Clone Made By Sarvesh Pednekar And Group</p>
+        </div>
+    </footer>
+
+</body>
+</html>

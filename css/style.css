@@ -1,0 +1,172 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.fw-black { 
+    font-weight: 900; 
+}
+
+input.bg-dark-trans,
+select.bg-dark-trans { 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+div.bg-dark-grey { 
+    background-color: #181818; 
+}
+
+.max-width-800 { 
+    max-width: 800px; 
+}
+
+.cursor-pointer { 
+    cursor: pointer; 
+}
+
+.section-divider {
+    height: 8px; 
+    background-color: #232323; 
+    width: 100%;
+}
+
+.main-header {
+    min-height: 100vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/7fb2ef1e-aaae-44d2-a22e-b47fa3ac5230/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 1;
+}
+
+.accordion-pure-css { 
+    position: relative; 
+    width: 100%; 
+}
+
+.faq-toggle { 
+    display: none; 
+}
+
+.faq-label { 
+    cursor: pointer; 
+    user-select: none; 
+}
+
+label.faq-label:hover { 
+    background-color: #303030; 
+}
+
+.faq-content { 
+    display: none; 
+}
+
+.faq-toggle:checked ~ .faq-content { 
+    display: block; 
+}
+
+.login-body {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/7fb2ef1e-aaae-44d2-a22e-b47fa3ac5230/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.login-card { 
+    width: 100%; 
+    max-width: 400px; 
+}
+
+input.login-input:focus {
+    background-color: rgba(45, 45, 45, 0.8);
+    border-color: #ffffff;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.browse-hero { 
+    height: 65vh; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.navbar .nav-link:hover { 
+    color: #e50914; 
+}
+
+.movie-card { 
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.movie-card img { 
+    height: 150px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.bg-gradient-card {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 100%);
+}
+
+.movie-card:hover { 
+    transform: scale(1.05); 
+}
+
+.movie-card:hover .bg-gradient-card { 
+    opacity: 1; 
+}
+
+.movie-card-link { 
+    text-decoration: none; 
+}
+
+.search-toggle-chk { 
+    display: none; 
+}
+
+.search-input-field {
+    display: none;
+    font-size: 0.9rem;
+}
+
+.search-toggle-chk:checked ~ input.search-input-field {
+    display: inline-block;
+    width: 180px;
+    padding: 4px 8px;
+    margin-left: 8px;
+}
+
+.bell-toggle-chk { 
+    display: none; 
+}
+
+.bell-dropdown {
+    width: 260px; 
+    top: 100%; 
+    display: none;
+    z-index: 99;
+}
+
+.bell-toggle-chk:checked ~ .bell-dropdown { 
+    display: block; 
+}
+
+.video-controls-top { 
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 100%); 
+}
+
+.back-btn-hover:hover { 
+    color: #e50914; 
+}

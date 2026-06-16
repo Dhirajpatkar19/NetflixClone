@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing - Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black text-white m-0 p-0 overflow-hidden" style="height: 100vh;">
+
+    <div class="video-container position-relative w-100 h-100 bg-black">
+        
+        <div class="video-controls-top position-absolute top-0 start-0 w-100 p-4 z-3 d-flex align-items-center">
+            <a href="browse.html" class="text-white text-decoration-none fs-3 d-flex align-items-center gap-3 back-btn-hover">
+                <i class="fas fa-arrow-left"></i>
+                <span class="fs-5 fw-light">Back to Browse</span>
+            </a>
+        </div>
+
+        <video class="w-100 h-100 object-fit-cover" controls autoplay>
+            <source src="./assest/144961-785579148.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black text-white">
+
+    <nav class="navbar navbar-dark bg-black sticky-top px-4 border-bottom border-dark z-3">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-4">
+                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" width="110"></a>
+                <a href="browse.html" class="nav-link text-secondary small">Movies</a>
+                <a href="tvshows.html" class="nav-link text-white small fw-bold">TV Shows</a>
+            </div>
+            
+            <div class="d-flex align-items-center gap-4 position-relative">
+                <div class="search-box-container d-flex align-items-center">
+                    <input type="checkbox" id="search-toggle-tv" class="search-toggle-chk">
+                    <label for="search-toggle-tv" class="search-icon-btn text-white fs-5 m-0 cursor-pointer"><i class="fas fa-search"></i></label>
+                    <input type="text" class="search-input-field text-white bg-dark-trans border-secondary" placeholder="Search TV series...">
+                </div>
+
+                <div class="notification-container">
+                    <input type="checkbox" id="bell-toggle-tv" class="bell-toggle-chk">
+                    <label for="bell-toggle-tv" class="bell-icon-btn text-white fs-5 m-0 cursor-pointer position-relative">
+                        <i class="fas fa-bell"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-1"><span class="visually-hidden">Alerts</span></span>
+                    </label>
+                    <div class="bell-dropdown bg-dark-grey border border-secondary rounded p-3 position-absolute end-0 mt-3 shadow-lg">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=60" alt="thumb" width="50" class="rounded">
+                            <div>
+                                <h6 class="m-0 small fw-bold text-white">New Episodes Out</h6>
+                                <p class="m-0 text-secondary extra-small">Neon Horizon Season 4 is live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-danger rounded text-center fw-bold text-white fs-6" style="width: 32px; height: 32px; line-height: 32px;">U</div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="browse-hero position-relative d-flex align-items-center mb-5" style="background-image: url('https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=1425&auto=format&fit=crop');">
+        <div class="header-overlay"></div>
+        <div class="container position-relative z-3 py-5">
+            <h1 class="display-2 fw-black text-uppercase">Abstract Realms</h1>
+            <p class="fs-4 max-width-800 text-light my-3">Dive into the minds of the world's most innovative designers and discover how design impacts daily life.</p>
+            <div class="d-flex gap-3 mt-4">
+                <a href="watch.html" class="btn btn-light btn-lg px-4 fw-bold text-dark"><i class="fas fa-play me-2"></i> Play Season 1</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid px-4 mb-5">
+        <div class="movie-row mb-4">
+            <h3 class="fs-4 fw-bold mb-3">Popular TV Series Listing</h3>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="watch.html" class="movie-card-link">
+                        <div class="card bg-dark border-0 movie-card position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400&auto=format&fit=crop" class="card-img" alt="TV Show 1">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end bg-gradient-card opacity-0">
+                                <h6 class="fw-bold m-0 text-white"><i class="fas fa-play-circle text-danger me-2"></i>Neon Horizon (TV)</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

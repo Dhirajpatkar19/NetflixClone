@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-body" style="background-image: url('./assest/header-image.png');">
+
+    <header class="login-header px-4 py-3 position-absolute top-0 start-0 z-3">
+        <a href="index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" width="160">
+        </a>
+    </header>
+
+    <div class="header-overlay"></div>
+
+    <main class="container d-flex justify-content-center align-items-center min-vh-100 position-relative z-3 pt-5">
+        <div class="login-card bg-black bg-opacity-75 p-5 rounded-3 border border-secondary border-opacity-25" style="backdrop-filter: blur(8px);">
+            <h1 class="fs-2 fw-bold text-white mb-4">Sign In</h1>
+            
+            <form action="browse.html" method="GET">
+                <div class="mb-3">
+                    <input type="email" class="form-control form-control-lg login-input text-white border-secondary bg-dark-trans py-3 fs-6" placeholder="Email or mobile number" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control form-control-lg login-input text-white border-secondary bg-dark-trans py-3 fs-6" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-danger btn-lg w-100 fw-bold py-2 mt-2 mb-3">Sign In</button>
+                
+                <div class="form-check mb-4">
+                    <input class="form-check-input bg-transparent border-secondary" type="checkbox" id="rememberMe" checked>
+                    <label class="form-check-label text-secondary-light small" for="rememberMe">Remember me</label>
+                </div>
+            </form>
+
+            <div class="login-signup-now text-secondary-light mb-3">
+                New to Netflix? <a href="index.html" class="text-white text-decoration-none fw-bold hover-underline">Sign up now</a>.
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
